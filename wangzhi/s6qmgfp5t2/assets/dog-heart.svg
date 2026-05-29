@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="420" viewBox="0 0 420 420" role="img" aria-label="线条小狗爱心">
+  <g fill="none" stroke="#ee9684" stroke-width="10" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M206 92c-38-36-84-6-74 40 12 32 50 44 74 64"/>
+    <path d="M206 92c40-36 88-6 74 40-10 34-50 44-74 64"/>
+  </g>
+  <g fill="none" stroke="#372b26" stroke-width="12" stroke-linecap="round" stroke-linejoin="round">
+    <ellipse cx="210" cy="214" rx="98" ry="76"/>
+    <path d="M120 166c-40-36-50 44-10 58"/>
+    <path d="M300 166c44-36 54 44 10 58"/>
+    <path d="M154 294c-28 40 12 64 56 36"/>
+    <path d="M266 294c28 40-12 64-56 36"/>
+    <path d="M190 220c10 14 30 14 40 0"/>
+  </g>
+  <g fill="#372b26">
+    <circle cx="173" cy="202" r="7"/>
+    <circle cx="247" cy="202" r="7"/>
+  </g>
+</svg>
