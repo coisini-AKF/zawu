@@ -1,0 +1,279 @@
+:root {
+  color-scheme: light;
+  font-family:
+    "STXingkai",
+    "KaiTi",
+    "Microsoft YaHei",
+    "PingFang SC",
+    system-ui,
+    sans-serif;
+  background: #fff3f7;
+  color: #312523;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100%;
+  margin: 0;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at 18% 14%, rgba(255, 255, 255, 0.96), transparent 18rem),
+    radial-gradient(circle at 88% 20%, rgba(255, 205, 222, 0.74), transparent 14rem),
+    radial-gradient(circle at 13% 86%, rgba(214, 241, 230, 0.8), transparent 15rem),
+    linear-gradient(145deg, #fff5f8 0%, #ffe5ef 42%, #dff4ed 100%);
+}
+
+.page {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: 18px;
+  overflow: hidden;
+}
+
+.poster {
+  position: relative;
+  width: min(100%, 430px);
+  aspect-ratio: 9 / 16;
+  min-height: min(94vh, 764px);
+  display: grid;
+  align-content: center;
+  justify-items: center;
+  gap: 14px;
+  padding: 44px 22px;
+  isolation: isolate;
+  text-align: center;
+}
+
+.poster::before {
+  content: "";
+  position: absolute;
+  inset: 5%;
+  z-index: -2;
+  border: 1px solid rgba(123, 78, 82, 0.14);
+  border-radius: 48% 52% 46% 54% / 55% 45% 55% 45%;
+  background:
+    linear-gradient(rgba(255, 255, 255, 0.42), rgba(255, 255, 255, 0.16)),
+    repeating-radial-gradient(circle, rgba(255, 255, 255, 0.3) 0 1px, transparent 1px 20px);
+  box-shadow:
+    0 34px 90px rgba(141, 83, 88, 0.13),
+    inset 0 0 72px rgba(255, 255, 255, 0.4);
+}
+
+.poster::after {
+  content: "";
+  position: absolute;
+  inset: 2%;
+  z-index: -3;
+  border-radius: 42px;
+  background: rgba(255, 255, 255, 0.18);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.32);
+}
+
+.bubble {
+  position: absolute;
+  z-index: -1;
+  border-radius: 999px;
+}
+
+.bubble-one {
+  width: 142px;
+  height: 142px;
+  top: 10%;
+  right: -18px;
+  background: rgba(255, 181, 207, 0.58);
+}
+
+.bubble-two {
+  width: 118px;
+  height: 118px;
+  bottom: 10%;
+  left: -12px;
+  background: rgba(178, 226, 209, 0.62);
+}
+
+.ribbon {
+  position: absolute;
+  top: 22%;
+  left: 18%;
+  z-index: -1;
+  width: 64%;
+  height: 12px;
+  border-radius: 999px;
+  background: linear-gradient(90deg, transparent, rgba(255, 211, 124, 0.76), transparent);
+  transform: rotate(-8deg);
+}
+
+.sticker {
+  position: absolute;
+  width: clamp(76px, 24vw, 118px);
+  height: auto;
+  filter: drop-shadow(0 16px 24px rgba(96, 69, 69, 0.14));
+  user-select: none;
+}
+
+.sticker-peek {
+  top: 5.5%;
+  left: 5%;
+  transform: rotate(-8deg);
+}
+
+.sticker-bounce {
+  top: 8%;
+  right: 4%;
+  transform: rotate(7deg);
+}
+
+.sticker-love {
+  bottom: 6%;
+  left: 4%;
+  transform: rotate(5deg);
+}
+
+.sticker-soft {
+  right: 5%;
+  bottom: 9%;
+  transform: rotate(-4deg);
+}
+
+.eyebrow {
+  margin: 0;
+  padding: 7px 16px;
+  border: 1px solid rgba(123, 78, 82, 0.18);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.42);
+  color: #8d5962;
+  font-family: "Microsoft YaHei", "PingFang SC", system-ui, sans-serif;
+  font-size: clamp(0.8rem, 2.7vw, 0.95rem);
+  font-weight: 800;
+  letter-spacing: 0;
+  text-transform: uppercase;
+  backdrop-filter: blur(10px);
+}
+
+h1 {
+  margin: 0;
+  color: #332421;
+  font-family: "STXingkai", "KaiTi", "Microsoft YaHei", "PingFang SC", serif;
+  font-size: clamp(5.2rem, 22vw, 8.6rem);
+  font-weight: 700;
+  line-height: 0.96;
+  letter-spacing: 0;
+  text-shadow:
+    0 4px 0 rgba(255, 255, 255, 0.78),
+    0 18px 34px rgba(139, 81, 81, 0.2);
+}
+
+.wish {
+  position: relative;
+  width: min(100%, 21rem);
+  padding: 22px 20px;
+  border: 1px solid rgba(123, 78, 82, 0.13);
+  border-radius: 24px;
+  background: rgba(255, 255, 255, 0.46);
+  box-shadow: 0 22px 58px rgba(141, 83, 88, 0.12);
+  backdrop-filter: blur(12px);
+}
+
+.wish::before,
+.wish::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  width: 58%;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(141, 89, 98, 0.38), transparent);
+  transform: translateX(-50%);
+}
+
+.wish::before {
+  top: 12px;
+}
+
+.wish::after {
+  bottom: 12px;
+}
+
+.wish p {
+  margin: 0;
+  color: #59413d;
+  font-family: "KaiTi", "Microsoft YaHei", "PingFang SC", serif;
+  font-size: clamp(1.12rem, 4.7vw, 1.38rem);
+  font-weight: 700;
+  line-height: 1.72;
+}
+
+.dot,
+.dot::before,
+.dot::after {
+  position: absolute;
+  display: block;
+  border-radius: 999px;
+  content: "";
+}
+
+.dot {
+  top: -7px;
+  left: 24px;
+  width: 12px;
+  height: 12px;
+  background: #ff9bbb;
+  box-shadow: 18px 12px 0 #c4eadc;
+}
+
+.dot::before {
+  top: 30px;
+  left: -10px;
+  width: 7px;
+  height: 7px;
+  background: #ffd57c;
+}
+
+.dot::after {
+  top: 12px;
+  left: 42px;
+  width: 8px;
+  height: 8px;
+  background: #8d5962;
+}
+
+.dot-right {
+  inset: auto 26px -7px auto;
+  transform: rotate(180deg);
+}
+
+@media (max-width: 440px) {
+  .page {
+    padding: 10px;
+  }
+
+  .poster {
+    min-height: min(96vh, 760px);
+    padding: 42px 18px;
+  }
+
+  .sticker-peek {
+    left: 0;
+  }
+
+  .sticker-bounce {
+    right: 0;
+  }
+
+  .sticker-love {
+    left: 0;
+  }
+
+  .sticker-soft {
+    right: 0;
+  }
+}
