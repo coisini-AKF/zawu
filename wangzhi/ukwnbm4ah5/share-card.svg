@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="璐璐">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff5f8"/>
+      <stop offset="0.52" stop-color="#ffe5ef"/>
+      <stop offset="1" stop-color="#dff4ed"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="20" stdDeviation="20" flood-color="#8b5151" flood-opacity="0.22"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="930" cy="145" r="130" fill="#ffbdd2" opacity=".62"/>
+  <circle cx="218" cy="490" r="118" fill="#bde6d6" opacity=".72"/>
+  <text x="600" y="275" text-anchor="middle" fill="#8d5962" font-family="Arial, sans-serif" font-size="34" font-weight="700">FOR YOU</text>
+  <text x="600" y="398" text-anchor="middle" fill="#332421" font-family="Microsoft YaHei, PingFang SC, Arial, sans-serif" font-size="132" font-weight="900" filter="url(#shadow)">璐璐</text>
+</svg>
