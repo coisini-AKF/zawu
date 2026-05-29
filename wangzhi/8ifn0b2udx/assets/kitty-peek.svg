@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="420" viewBox="0 0 420 420" role="img" aria-label="探头小猫表情">
+  <path d="M126 164l-28-56 60 24M294 164l28-56-60 24" fill="#f6b6a6" stroke="#2e2827" stroke-width="9" stroke-linejoin="round"/>
+  <path d="M88 240c0-72 55-122 122-122s122 50 122 122c0 58-46 92-122 92S88 298 88 240z" fill="#fffefa" stroke="#2e2827" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="166" cy="215" r="37" fill="#f8f4a7" stroke="#2e2827" stroke-width="8"/>
+  <circle cx="254" cy="215" r="37" fill="#f8f4a7" stroke="#2e2827" stroke-width="8"/>
+  <circle cx="166" cy="215" r="27" fill="#111"/>
+  <circle cx="254" cy="215" r="27" fill="#111"/>
+  <circle cx="154" cy="202" r="10" fill="#fff"/>
+  <circle cx="242" cy="202" r="10" fill="#fff"/>
+  <circle cx="180" cy="225" r="5" fill="#fff"/>
+  <circle cx="268" cy="225" r="5" fill="#fff"/>
+  <path d="M203 252c8 9 18 9 27 0" fill="none" stroke="#2e2827" stroke-width="7" stroke-linecap="round"/>
+  <path d="M112 300c22 21 57 25 98 25s76-4 98-25" fill="none" stroke="#2e2827" stroke-width="10" stroke-linecap="round"/>
+</svg>
