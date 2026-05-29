@@ -42,9 +42,8 @@ body {
 
 .poster {
   position: relative;
-  width: min(100%, 430px);
+  width: min(calc(100vw - 20px), 430px);
   aspect-ratio: 9 / 16;
-  min-height: min(94vh, 764px);
   display: grid;
   align-content: center;
   justify-items: center;
@@ -115,7 +114,7 @@ body {
 
 .sticker {
   position: absolute;
-  width: clamp(76px, 24vw, 118px);
+  width: clamp(78px, 23vw, 122px);
   height: auto;
   filter: drop-shadow(0 16px 24px rgba(96, 69, 69, 0.14));
   user-select: none;
@@ -140,7 +139,7 @@ body {
 }
 
 .sticker-soft {
-  right: 5%;
+  right: 6%;
   bottom: 9%;
   transform: rotate(-4deg);
 }
@@ -257,23 +256,29 @@ h1 {
   }
 
   .poster {
-    min-height: min(96vh, 760px);
+    width: min(calc(100vw - 20px), 430px);
     padding: 42px 18px;
   }
 
   .sticker-peek {
-    left: 0;
+    top: 7%;
+    left: 14px;
+    width: 88px;
   }
 
   .sticker-bounce {
-    right: 0;
+    top: 8%;
+    right: 14px;
+    width: 88px;
   }
 
   .sticker-love {
-    left: 0;
+    left: 14px;
+    width: 88px;
   }
 
   .sticker-soft {
-    right: 0;
+    right: 14px;
+    width: 88px;
   }
 }
